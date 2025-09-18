@@ -6,17 +6,20 @@ function Card() {
       <div className="title">About our work</div>
       <div className="cards">
         <div className="card">
+          <div className="texts">
+            <div className="main">Mission</div>
+            <div className="extra">
+              we combine creativity and advanced technology to build AI
+              solutions that make life easier. What started as a class project
+              has grown into a mission to design user-friendly AI robots and
+              smart web applications that solve real-world problems.
+            </div>
+          </div>
           <img
-            src="src\assets\electronics-3373109_1280-removebg-preview.png"
+            src="src\assets\chi.jpg"
             alt="image of microchip"
             className="image"
           />
-          <div className="circle">
-            <div className="incircle"></div>
-          </div>
-          <div className="circle2">
-            <div className="incircle"></div>
-          </div>
         </div>
         <div className="card">
           <img
@@ -24,32 +27,26 @@ function Card() {
             alt="image of brain"
             className="image1"
           />
-          <div className="circle">
-            <div className="incircle"></div>
-          </div>
-          <div className="circle2">
-            <div className="incircle"></div>
+          <div className="texts">
+             <div className="main">My Goals</div>
+            <div className="extra">
+              to create technology that feels human — intelligent, reliable, and easy to use. We believe in innovation, transparency, and teamwork, values that guide everything we build.
+            </div>
           </div>
         </div>
         <div className="card">
+           <div className="texts">
+             <div className="main">Mission</div>
+            <div className="extra">
+              Whether it’s automating everyday tasks, enhancing online security, or developing tools for businesses, we are committed to pushing boundaries and making AI accessible for everyone.
+            </div>
+        </div>
           <img
             src="src\assets\ChatGPT_Image_Sep_17__2025__11_27_22_AM-removebg-preview.png"
             alt="secure privacy and security"
             className="image"
           />
-          <div className="circle">
-            <div className="incircle"></div>
-          </div>
-          <div className="circle2">
-            <div className="incircle"></div>
-          </div>
         </div>
-      </div>
-      <div className="story">
-        <p>
-          NeuraBot isn’t just a robot — it’s a reliable companion built on
-          privacy, intelligence, and trust.
-        </p>
       </div>
     </div>
   );

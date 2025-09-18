@@ -14,9 +14,11 @@
     width: 100%;
     height: fit-content;
     display: flex;
-    justify-content: space-evenly;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
     padding: 20px;
+    gap: 20px;
 }
 .title{
     font-size: 20px;
@@ -28,43 +30,24 @@
     text-transform: capitalize;
 }
 .card{
-    width: 280px;
-    height: 320px;
-    background-color: rgba(0, 0, 0, 0.616);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    color: white;
     position: relative;
     overflow: hidden;
     border-radius: 24px;
-}
-.circle{
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    position: absolute;
-    background-color: rgba(255, 255, 255, 0.596);
-    top: -100px;
-    right: -100px;
-}
-.circle2{
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    position: absolute;
-    background-color: rgba(255, 255, 255, 0.63);
-    bottom: -100px;
-    left: -100px;
-}
-.incircle{
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    position: absolute;
-    background-color: #111;
     margin: 0 auto;
-    top: 25px;
-    left: 25px;
+    
 }
+.card .main{
+    font-size: 60px;
+}
+
+
 .image{
-    width: 300px;
+    width: 500px;
     object-position: center;
     object-fit: contain;
 }

@@ -17,7 +17,6 @@ function App() {
       <HeroText />
       <Card />
       <Feature />
-      <p>lfjiiuiwvuiwvu</p>
     </div>
   )
 }
