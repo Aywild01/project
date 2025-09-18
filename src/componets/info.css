@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+  .card{
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  .header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .iconButton{
+    font-size: 18px;
+    cursor: pointer;
+    
+  }
+  .details{
+    margin-top: 12px;
+    color: #555;
+  }

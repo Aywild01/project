@@ -1,0 +1,62 @@
+.allcardo{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    padding-top: 120px;
+    background-color: rgba(24, 20, 20, 0.918);
+    position: relative;
+    gap: 30px;
+}
+.cardso{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+}
+.titlet{
+    font-size: 40px;
+    padding: 12px;
+    color: white;
+    text-transform: capitalize;
+}
+.cardo{
+    width: 300px;
+    height: 420px;
+    background-color: #0d1433;
+    color: white;
+    position: relative;
+    overflow: hidden;
+    border-radius: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+}
+.images{
+    width: 300px;
+    height: 250px;
+}
+.images1{
+    width: 300px;
+    height: 250px;
+}
+.cardoBody{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    
+}
+.cardoBody p:first-child{
+    font-size: 30px;
+    font-family: "DM SANS", sans-serif;
+}
+.cardoBody p{
+    font-family: "DM SANS", sans-serif;
+}
