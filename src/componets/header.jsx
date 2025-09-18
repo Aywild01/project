@@ -7,15 +7,15 @@ function Header(){
   const toggleMenu = () => setIsOpen(!isOpen);
   return (
      <header>
-        <div className="logo">LUSION</div>
+        <div className="animate__animated animate__fadeInRight logo">LUSION</div>
         <div className="controls">
-          <button className="btn">LET'S TALK</button>
-          <button className="menu-toggle" onClick={toggleMenu}>
+          <button className="btn animate__animated animate__fadeInLeft">LET'S TALK</button>
+          <button className="menu-toggle animate__animated animate__fadeInLeft" onClick={toggleMenu}>
             {isOpen ? 'CLOSE ✕' : 'MENU ☰'}
           </button>
         </div>
         {isOpen && (
-        <div className="dropdown" id="dropdown">
+        <div className="dropdown animate_animated animate__fadeInDown" id="dropdown">
           <a href="#">HOME</a>
           <a href="#">ABOUT US</a>
           <a href="#">PROJECTS</a>
@@ -23,7 +23,7 @@ function Header(){
         </div>
       )}
       {isOpen && (
-        <div className="dropdown2" id="dropdown">
+        <div className="dropdown2 animate_animated animate__fadeInUp" id="dropdown">
           <div className="newsletter">
             <p><strong>Subscribe to our newsletter</strong></p>
             <input type="email" placeholder="Your email" />
