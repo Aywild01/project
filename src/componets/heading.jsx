@@ -1,4 +1,5 @@
 import './heading.css'
+import 'animate.css'
 
 function HeroText(){
     return(
@@ -8,8 +9,8 @@ function HeroText(){
             {/* <p>At NeuraBot AI we are building intelligent robot system that learn, <br /> adapt and work along side humans to solve complex challanges</p> */}
         </div>
         <div className="cta">
-            <button>Get Started</button>
-            <button>Explore our tech</button>
+            <button className='animate_animated animate__fadeInUp'>Get Started</button>
+            <button className='animate_animated animate__fadeInUp'>Explore our tech</button>
         </div>
     </div>
     )
