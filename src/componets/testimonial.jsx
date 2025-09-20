@@ -1,3 +1,4 @@
+import './testimonial.css'
 import React, { useState } from "react";
 
 const testimonials = [
@@ -66,149 +67,8 @@ const Testimonials = () => {
   };
 
   return (
-    <>
-      <style>{`
-        .testimonials-section {
-          padding: 4rem 1rem;
-          background-color: #f9fafb;
-          color: #111827;
-          font-family: Arial, sans-serif;
-          max-width: 1200px;
-          margin: 0 auto;
-        }
-        .testimonials-title {
-          text-align: center;
-          font-size: 2rem;
-          font-weight: 700;
-          margin-bottom: 3rem;
-        }
-        .carousel {
-          background: white;
-          border-radius: 8px;
-          box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-          padding: 2rem;
-          max-width: 600px;
-          margin: 0 auto;
-          position: relative;
-        }
-        .avatar {
-          width: 80px;
-          height: 80px;
-          border-radius: 50%;
-          object-fit: cover;
-          border: 3px solid #3b82f6;
-          margin: 0 auto 1.5rem;
-          display: block;
-        }
-        blockquote {
-          font-style: italic;
-          font-size: 1.125rem;
-          line-height: 1.6;
-          margin-bottom: 1.5rem;
-          text-align: center;
-          color: #374151;
-        }
-        .testimonial-name {
-          font-weight: 700;
-          font-size: 1.125rem;
-          color: #2563eb;
-          text-align: center;
-          margin-bottom: 0.25rem;
-        }
-        .testimonial-role {
-          font-size: 0.875rem;
-          color: #6b7280;
-          text-align: center;
-        }
-        .carousel-controls {
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          margin-top: 1.5rem;
-          gap: 1rem;
-        }
-        .control-button {
-          background: transparent;
-          border: none;
-          cursor: pointer;
-          padding: 0.5rem;
-          border-radius: 50%;
-          transition: background-color 0.3s ease;
-          color: #2563eb;
-          display: flex;
-          align-items: center;
-          justify-content: center;
-        }
-        .control-button:hover {
-          background-color: #bfdbfe;
-        }
-        .dots {
-          display: flex;
-          gap: 0.5rem;
-        }
-        .dot {
-          width: 12px;
-          height: 12px;
-          border-radius: 50%;
-          background-color: #d1d5db;
-          cursor: pointer;
-          transition: background-color 0.3s ease;
-        }
-        .dot.active {
-          background-color: #2563eb;
-        }
-        .additional-testimonials {
-          margin-top: 4rem;
-          display: grid;
-          grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-          gap: 1.5rem;
-        }
-        .testimonial-card {
-          background: white;
-          border-radius: 8px;
-          box-shadow: 0 2px 8px rgba(0,0,0,0.05);
-          padding: 1.5rem;
-          display: flex;
-          flex-direction: column;
-          gap: 1rem;
-        }
-        .testimonial-card-header {
-          display: flex;
-          align-items: center;
-          gap: 1rem;
-        }
-        .testimonial-card-avatar {
-          width: 48px;
-          height: 48px;
-          border-radius: 50%;
-          object-fit: cover;
-          flex-shrink: 0;
-        }
-        .testimonial-card-name {
-          font-weight: 700;
-          font-size: 1rem;
-          color: #111827;
-        }
-        .testimonial-card-role {
-          font-size: 0.875rem;
-          color: #6b7280;
-        }
-        .testimonial-card-text {
-          font-size: 0.95rem;
-          color: #4b5563;
-          line-height: 1.4;
-          flex-grow: 1;
-        }
-        @media (max-width: 640px) {
-          .carousel {
-            padding: 1.5rem;
-          }
-          .testimonials-title {
-            font-size: 1.5rem;
-          }
-        }
-      `}</style>
-
+    <div>
+    
       <section className="testimonials-section" aria-label="Customer testimonials">
         <h2 className="testimonials-title">What Our Customers Say</h2>
 
@@ -299,7 +159,7 @@ const Testimonials = () => {
           ))}
         </div>
       </section>
-    </>
+    </div>
   );
 };
 
