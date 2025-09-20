@@ -4,6 +4,7 @@ import Header from "./componets/header";
 import HeroText from "./componets/heading";
 import Card from "./componets/card";
 import Feature from "./componets/features";
+import Testimonial from "./componets/testimonial";
 import AboutUs from './componets/aboutus';
 
 import about_us from "./assets/about.jpg"
@@ -52,7 +53,7 @@ function App() {
       }  
       </div>
   
-     
+     <Testimonial />
     </div>
   )
 }
