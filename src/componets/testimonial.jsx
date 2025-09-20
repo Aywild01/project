@@ -142,7 +142,6 @@ const Testimonials = () => {
         <div className="additional-testimonials" aria-label="Additional customer testimonials">
           {additionalTestimonials.map(({ name, role, text, avatar }, idx) => (
             <article key={idx} className="testimonial-card">
-              <header className="testimonial-card-header">
                 <img
                   src={avatar}
                   alt={`Portrait of ${name}`}
@@ -153,7 +152,6 @@ const Testimonials = () => {
                   <div className="testimonial-card-name">{name}</div>
                   <div className="testimonial-card-role">{role}</div>
                 </div>
-              </header>
               <p className="testimonial-card-text">"{text}"</p>
             </article>
           ))}
