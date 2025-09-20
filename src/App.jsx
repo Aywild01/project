@@ -6,7 +6,7 @@ import Card from "./componets/card";
 import Feature from "./componets/features";
 import Testimonial from "./componets/testimonial";
 import AboutUs from './componets/aboutus';
-
+import Footer from "./componets/footer";
 import about_us from "./assets/about.jpg"
 import AboutHero from './componets/about_hero';
 import dd from './assets/dd.jpg'
@@ -18,13 +18,13 @@ function App() {
   let about_ = [{
     badge: 'Why Us',
     title: "Home care software <br /> that works as <br /> hard as you do.",
-    descroiption:"Lorem ipsum dolor sit amet consectetur <br />adipisicing elit. Sint voluptas id dicta.",
+    descroiption:"we believe the future of technology is not just about machines — it’s about creating intelligent companions that improve the way we live, work, and connect.",
     image: about_us
   },
 {
-    badge: 'Why Us',
-    title: "Home care software <br /> that works as <br /> hard as you do.",
-    descroiption:"Lorem ipsum dolor sit amet consectetur <br />adipisicing elit. Sint voluptas id dicta.",
+    badge: 'Our vision',
+    title: "Design AI robots <br /> that are more than tools",
+    descroiption:"They are adaptive, interactive, and secure partners, capable of understanding human needs and evolving with them. With advanced voice recognition, smart navigation, and continuous learning capabilities, our robots bring futuristic innovation into everyday life.",
     image: dd
   }]
   
@@ -54,6 +54,7 @@ function App() {
       </div>
   
      <Testimonial />
+     <Footer />
     </div>
   )
 }
