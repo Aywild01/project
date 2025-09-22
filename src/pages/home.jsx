@@ -6,6 +6,7 @@ import Card from "../componets/card";
 import Feature from "../componets/features";
 import Testimonial from "../componets/testimonial";
 import AboutUs from '../componets/aboutus';
+import Footer from '../componets/footer'
 
 import about_us from "../assets/about.jpg"
 import AboutHero from '../componets/about_hero';
@@ -55,6 +56,7 @@ function Home() {
       </div>
   
      <Testimonial />
+     <Footer />
     </div>
   )
 }
