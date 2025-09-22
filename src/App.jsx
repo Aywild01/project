@@ -2,13 +2,15 @@ import './App.css'
 
 import {Route, Routes, BrowserRouter as Router} from 'react-router-dom'
 import Home from './pages/home'
+import About from './pages/about'
 
 
 function App() {
   return(
     <Router>
       <Routes>
-        <Route src="{Home}" ></Route>
+        <Route path='/' element={Home} ></Route>
+        <Route path='/src/pages/about.jsx' element={about}></Route>
       </Routes>
     </Router>
   )
