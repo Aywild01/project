@@ -1,6 +1,6 @@
 import './header.css'
 import React, { useState } from 'react';
-
+import { Link } from 'react-router-dom';
 
 function Header(){
   const [isOpen, setIsOpen] = useState(false);
@@ -16,10 +16,10 @@ function Header(){
         </div>
         {isOpen && (
         <div className="dropdown animate_animated animate__fadeInDown" id="dropdown">
-          <a href="#">HOME</a>
-          <a href="#">ABOUT US</a>
-          <a href="#">PROJECTS</a>
-          <a href="#">CONTACT</a>
+          <Link to='/'>HOME</Link>
+          <Link to='/about'>ABOUT US</Link>
+          <Link to='/'>PROJECTS</Link>
+          <Link to='/'>CONTACT</Link>
         </div>
       )}
       {isOpen && (
