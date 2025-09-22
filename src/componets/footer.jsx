@@ -84,7 +84,7 @@ function Footer() {
           </div>
 
           <div class="copyright">
-            <p>© 2023 NeuraBot AI. All rights reserved.</p>
+            <p>© 2023 Lusion AI. All rights reserved.</p>
           </div>
         </div>
       </footer>

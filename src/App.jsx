@@ -11,6 +11,7 @@ import about_us from "./assets/about.jpg"
 import AboutHero from './componets/about_hero';
 import dd from './assets/dd.jpg'
 import 'animate.css';
+import {Route,Routes, BrowserRouter as Router} from 'react-router-dom'
 
 
 function App() {
