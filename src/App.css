@@ -8,6 +8,10 @@
     height: 100vh;
     position: relative;
 }
+.Aboutsect{
+    height: 100vh;
+    position: relative;
+}
 canvas{
     width: 100% !important;
     height: 100% !important;

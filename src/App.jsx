@@ -9,8 +9,8 @@ function App() {
   return(
     <Router>
       <Routes>
-        <Route path='/' element={Home} ></Route>
-        <Route path='/src/pages/about.jsx' element={About}></Route>
+        <Route path='/' element={<Home/>} ></Route>
+        <Route path='/about' element={<About />}></Route>
       </Routes>
     </Router>
   )
