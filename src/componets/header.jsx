@@ -16,7 +16,7 @@ function Header(){
         </div>
         {isOpen && (
         <div className="dropdown animate_animated animate__fadeInDown" id="dropdown">
-          <Link to='/'>HOME</Link>
+          <Link to='/home'>HOME</Link>
           <Link to='/about'>ABOUT US</Link>
           <Link to='/'>PROJECTS</Link>
           <Link to='/'>CONTACT</Link>

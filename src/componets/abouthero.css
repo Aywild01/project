@@ -1,7 +1,7 @@
 
 
-        /* Hero Section - Updated for Two-Column Layout */
-        .hero {
+        /* heron Section - Updated for Two-Column Layout */
+        .heron {
             width: 60%;
             padding: 100px 40px;
             background: linear-gradient(to bottom, #ffffff, 0%, #f9fafb 100%);
@@ -13,13 +13,13 @@
             z-index: 1;
         }
 
-        .hero-content {
+        .heron-content {
             flex: 1;
             max-width: 80%;
             padding-right: 40px;
         }
 
-        .hero h1 {
+        .heron h1 {
             font-size: 3rem;
             font-weight: 700;
             margin-bottom: 20px;
@@ -27,14 +27,14 @@
             line-height: 1.2;
         }
 
-        .hero p {
+        .heron p {
             font-size: 1.2rem;
             color: #4b5563;
             margin-bottom: 40px;
             line-height: 1.6;
         }
 
-        .hero-buttons {
+        .heron-buttons {
             display: flex;
             gap: 16px;
         }
