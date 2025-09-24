@@ -1,5 +1,5 @@
  .featureds {
-            padding: 100px 0;
+            padding: 100px 40px;
             background-color: #fff;
         }
         
@@ -27,7 +27,7 @@
         }
         
         .featured-card {
-            background: white;
+            background: #272727c4;
             padding: 40px 30px;
             border-radius: 15px;
             box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
@@ -41,17 +41,21 @@
         }
         
         .featured-icon {
+            width: 70px;
+            height: 70px;
             font-size: 50px;
             color: #4a90e2;
-            margin-bottom: 20px;
+            margin: 10px auto;
+            background-color: #ffffff;
+            border-radius: 50%;
         }
         
         .featured-card h3 {
             font-size: 1.5rem;
             margin-bottom: 15px;
-            color: #000;
+            color: #fff;
         }
         
         .featured-card p {
-            color: #555;
+            color: #ffffff;
         }

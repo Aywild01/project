@@ -139,7 +139,7 @@ const Testimonials = () => {
         </div>
 
         {/* Additional Testimonials Grid */}
-        <h2 className="testimonials-title">Meet The Team</h2>
+        <h2 className="additional-testimonials-title">Meet The Team</h2>
         <div className="additional-testimonials" aria-label="Additional customer testimonials">
           {additionalTestimonials.map(({ name, role, text, avatar }, idx) => (
             <article key={idx} className="testimonial-card">

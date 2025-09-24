@@ -1,17 +1,17 @@
  .values {
-            padding: 100px 0;
+            padding: 100px 40px;
             background-color: #ffffff;;
         }
 
         .values-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
             gap: 30px;
             margin-top: 50px;
         }
 
         .value-card {
-            background: #ffffff;;
+            background: #111111ce;;
             border-radius: 12px;
             padding: 30px;
             text-align: center;
@@ -42,10 +42,10 @@
         .value-title {
             font-size: 1.3rem;
             margin-bottom: 15px;
-            color: #1f2937;
+            color: #ffffff;
         }
 
         .value-desc {
-            color: #4b5563;
+            color: #f9fafb;
             line-height: 1.6;
         }
