@@ -7,7 +7,7 @@ function Story(){
         <div class="container">
             <div class="section-title">
                 <h2>Our Story</h2>
-                <p>Founded in 2015, NexTech has been at the forefront of technological innovation for nearly a decade.
+                <p>NexTech has been at the forefront of technological innovation for nearly a year.
                 </p>
             </div>
             <div class="about-content">

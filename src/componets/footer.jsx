@@ -7,7 +7,7 @@ function Footer() {
         <div class="container">
           <div class="footer-content">
             <div class="footer-column">
-              <h3>NeuraBot AI</h3>
+              <h3>NexTech</h3>
               <p>
                 Building intelligent robotic systems that learn, adapt, and work
                 alongside humans.
@@ -84,7 +84,7 @@ function Footer() {
           </div>
 
           <div class="copyright">
-            <p>© 2023 Lusion AI. All rights reserved.</p>
+            <p>© 2023 NexTech AI. All rights reserved.</p>
           </div>
         </div>
       </footer>

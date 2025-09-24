@@ -33,7 +33,7 @@ function Form(){
                         </div>
                         <div class="contact-text">
                             <h4>Email Address</h4>
-                            <p>info@airobotics.com</p>
+                            <p>info@nextech.com</p>
                         </div>
                     </div>
                     <div class="contact-detail">

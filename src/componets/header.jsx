@@ -7,7 +7,7 @@ function Header(){
   const toggleMenu = () => setIsOpen(!isOpen);
   return (
      <header>
-        <div className="animate__animated animate__fadeInRight logo">LUSION</div>
+        <div className="animate__animated animate__fadeInRight logo">NexTech</div>
         <div className="controls">
           <button className="btn animate__animated animate__fadeInLeft">LET'S TALK</button>
           <button className="menu-toggle animate__animated animate__fadeInLeft" onClick={toggleMenu}>
