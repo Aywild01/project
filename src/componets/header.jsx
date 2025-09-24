@@ -19,7 +19,7 @@ function Header(){
           <Link to='/home'>HOME</Link>
           <Link to='/about'>ABOUT US</Link>
           <Link to='/project'>PROJECTS</Link>
-          <Link to='/'>CONTACT</Link>
+          <Link to='/contact'>CONTACT</Link>
         </div>
       )}
       {isOpen && (
